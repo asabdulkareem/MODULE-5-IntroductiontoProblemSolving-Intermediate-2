@@ -7,3 +7,7 @@
 /Java/Intermediate/.idea
 /Python/.venv
 /Python/.idea
+/Python/src/__pycache__
+/Python/src/day44/__pycache__
+/Python/test/__pycache__
+/Python/test/day44/__pycache__
