@@ -1,0 +1,9 @@
+/C#/src/Intermediate/bin
+/C#/src/Intermediate/obj
+/C#/test/TestIntermediate/bin
+/C#/test/TestIntermediate/obj
+/C#/.vs
+/Java/Intermediate/.mvn
+/Java/Intermediate/.idea
+/Python/.venv
+/Python/.idea

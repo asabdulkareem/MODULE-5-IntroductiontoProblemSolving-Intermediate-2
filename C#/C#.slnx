@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Intermediate/Intermediate.csproj" Id="0d96b4ab-20de-425a-b286-c5a11f998921" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/TestIntermediate/TestIntermediate.csproj" Id="0507f054-438f-460b-b2fc-34f8e0a13c39" />
+  </Folder>
+</Solution>
