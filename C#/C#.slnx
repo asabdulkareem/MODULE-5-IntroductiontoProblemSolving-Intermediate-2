@@ -1,5 +1,8 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="src/BenchmarkDotNet/Performance.csproj" Id="0460e037-4f95-4a54-992c-a90cb3ad084b">
+      <BuildType Project="Release" />
+    </Project>
     <Project Path="src/Intermediate/Intermediate.csproj" Id="0d96b4ab-20de-425a-b286-c5a11f998921" />
   </Folder>
   <Folder Name="/test/">
