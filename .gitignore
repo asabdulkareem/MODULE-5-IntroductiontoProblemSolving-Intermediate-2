@@ -15,3 +15,5 @@
 /C#/src/BenchmarkDotNet/obj
 /C#/src/BenchmarkDotNet/bin
 /Python/src/performance/__pycache__
+/Python/src/day46/__pycache__
+/Python/test/day46/__pycache__
