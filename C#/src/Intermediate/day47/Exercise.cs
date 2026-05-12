@@ -80,7 +80,8 @@ namespace Intermediate.day47
                 start++;
                 end--;
             }
-            return s;
+
+            return sb.ToString();
         }
         public static String ex6ReverseString(String s, int start, int end)
         {
