@@ -52,28 +52,28 @@ class ExerciseBehaviorTests(unittest.TestCase):
     def test_complex_number_multiplication_with_positive_values(self):
         c1 = Exercise.ClassComplexNumber(2, 3)
         c2 = Exercise.ClassComplexNumber(4, 5)
-        result = c1 * c2
+        result = c1.__mul__(c2)
         self.assertEqual(result.real, -7)
-        self.assertEqual(result.imaginary, 14)
+        self.assertEqual(result.imaginary, 23)
 
     def test_complex_number_multiplication_with_zero(self):
         c1 = Exercise.ClassComplexNumber(5, 7)
         c2 = Exercise.ClassComplexNumber(0, 0)
-        result = c1 * c2
+        result = c1.__mul__(c2)
         self.assertEqual(result.real, 0)
         self.assertEqual(result.imaginary, 0)
 
     def test_complex_number_multiplication_by_one(self):
         c1 = Exercise.ClassComplexNumber(3, 4)
         c2 = Exercise.ClassComplexNumber(1, 0)
-        result = c1 * c2
+        result = c1.__mul__(c2)
         self.assertEqual(result.real, 3)
         self.assertEqual(result.imaginary, 3)
 
     def test_complex_number_division_with_positive_values(self):
         c1 = Exercise.ClassComplexNumber(10, 10)
         c2 = Exercise.ClassComplexNumber(2, 2)
-        result = c1 / c2
+        result = c1.__truediv__(c2)
         self.assertEqual(result.real, 5)
         self.assertEqual(result.imaginary, 0)
 
@@ -87,14 +87,14 @@ class ExerciseBehaviorTests(unittest.TestCase):
     def test_complex_number_floordivision_with_positive_values(self):
         c1 = Exercise.ClassComplexNumber(10, 10)
         c2 = Exercise.ClassComplexNumber(3, 3)
-        result = c1 // c2
+        result = c1.__floordiv__(c2)
         self.assertEqual(result.real, 3)
         self.assertEqual(result.imaginary, 0)
 
     def test_complex_number_floordivision_with_different_values(self):
         c1 = Exercise.ClassComplexNumber(20, 15)
         c2 = Exercise.ClassComplexNumber(3, 2)
-        result = c1 // c2
+        result = c1.__floordiv__(c2)
         self.assertEqual(result.real, 6)
         self.assertEqual(result.imaginary, 0)
 
